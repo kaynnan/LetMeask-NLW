@@ -16,36 +16,29 @@ o projeto foi desenvolvido com as seguintes tecnologias:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Getting started
+## 🚀 Começando
 
-Clone the project and access the folder.
+Clone o projeto e acesse a pasta.
 
 ```bash
 $ git clone https://github.com/kaynnan/LetMeask-NLW.git
 $ cd LetMeask-NLW
 ```
 
-Follow the steps below:
+Siga os passos abaixo:
 ```bash
 # Install the dependencies
 $ yarn
 
-# Start the project
+# Para iniciar o projeto
 $ yarn start
 ```
-The app will be available for access on your browser at http://localhost:3000
+O aplicativo estará disponível para acesso em seu navegador em: http://localhost:3000
 
 ## 🔖 Layout
 
-You can view the project layout through the links below:
+Você pode ver o layout do projeto através dos links abaixo:
 
 - [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
 
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
-
----
+Lembrando que você precisa ter uma [Figma](http://figma.com/) conta para acessá-lo.
