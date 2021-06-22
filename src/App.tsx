@@ -1,12 +1,14 @@
-import { Button } from "./components/Button";
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import { Home } from "./pages/Home";
+import { Newroom } from "./pages/Newroom";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <Button>Clique aqui</Button>
-      <Button></Button>
-    </div>
+    <BrowserRouter>
+      <Route path="/" exact component={Home} />
+      <Route path="/rooms/new" exact component={Newroom} />
+    </BrowserRouter>
   );
 }
 
