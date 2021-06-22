@@ -27,7 +27,7 @@ $ cd LetMeask-NLW
 
 Siga os passos abaixo:
 ```bash
-# Install the dependencies
+# Instalar as dependências
 $ yarn
 
 # Para iniciar o projeto
