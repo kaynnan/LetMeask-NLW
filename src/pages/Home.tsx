@@ -1,14 +1,22 @@
 import { useHistory } from 'react-router-dom';
+import { Button } from '../components/Button';
+import { useAuth } from '../hooks/useAuth';
 import ilustracao from '../assets/images/illustration.svg';
 import logo from '../assets/images/logo.svg';
 import googleicon from '../assets/images/google-icon.svg';
-import { Button } from '../components/Button';
 import '../styles/auth.scss';
 
 export function Home() {
     const history = useHistory();
-    function navigateToNewRoom(){
+    const { user, signInWithGoogle } = useAuth();
+
+    async function navigateToNewRoom() {
+        if (!user) {
+            await signInWithGoogle();
+        }
+
         history.push('/rooms/new')
+
     }
     return (
         <div id="page-auth">

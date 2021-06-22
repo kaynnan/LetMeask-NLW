@@ -1,10 +1,19 @@
+// import { useAuth } from '../hooks/useAuth';
+
+/* Links e Componentes*/
+
 import { Link } from 'react-router-dom';
+import { Button } from '../components/Button';
+
+/* Imagens */ 
+
 import ilustracao from '../assets/images/illustration.svg';
 import logo from '../assets/images/logo.svg';
 import '../styles/auth.scss';
-import { Button } from '../components/Button';
 
 export function Newroom() {
+    // const { user } = useAuth();
+
     return (
         <div id="page-auth">
             <aside>
