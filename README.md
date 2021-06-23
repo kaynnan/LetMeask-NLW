@@ -41,4 +41,4 @@ Você pode ver o layout do projeto através dos links abaixo:
 
 - [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
 
-Lembrando que você precisa ter uma [Figma](http://figma.com/) conta para acessá-lo.
+Lembrando que você precisa ter uma conta [Figma](http://figma.com/) para acessá-lo.
