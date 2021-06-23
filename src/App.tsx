@@ -1,10 +1,11 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 /* Paginas */
 
 import { Home } from "./pages/Home";
 import { Newroom } from "./pages/Newroom";
+import { Rooms } from "./pages/Rooms";
 
 /* Autentificação*/
 
@@ -16,8 +17,11 @@ function App() {
   return (
     <BrowserRouter>
       <AuthContextProvider>
-        <Route path="/" exact component={Home} />
-        <Route path="/rooms/new" exact component={Newroom} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/rooms/new" component={Newroom} />
+          <Route path="/rooms/:id" component={Rooms} />
+        </Switch>
       </AuthContextProvider>
     </BrowserRouter>
   );
